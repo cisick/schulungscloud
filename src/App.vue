@@ -27,6 +27,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg svelte-qkfvko">
       <!-- Logo und Link zur Startseite -->
       <a class="navbar-brand svelte-qkfvko" href="#top">
+<!-- Hinweis:"alt" gibt immer die Alternative falls der Pfad nicht gefunden wird. -->
         <img src="./assets/logo-rgb.aa062cf4.png" alt="Schulungs.Cloud" class="svelte-qkfvko">
       </a>
       <!-- Toggler Button für mobile Navigation -->
@@ -36,6 +37,7 @@
        <!-- Container für Navigationselemente -->
       <div class="navbar-collapse svelte-qkfvko">
         <!-- Liste der Navigationselemente -->
+       <!-- Hinweis "ul": eine ungeordnete Liste jedes "li" ist ein Element in der Liste -->
         <ul class="nav nav-pills svelte-qkfvko">
           <!-- Navigationselement nur sichtbar auf kleinen Bildschirmen -->
           <li class="nav-item d-block d-lg-none svelte-qkfvko">
@@ -84,11 +86,13 @@
            <!-- Kartenüberschrift-->
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
+            <!-- Hinweis: "span" (= inline Element): um in einem Satz/Abschnitt eine andere Formatierung zu ermöglichen. (ohne Absatz) -->
               <h3 class="card-title svelte-xknto1"><span slot="title">einfach.</span></h3>
               <!-- Definieren eines Elements um den blauen Strich darzustellen.-->
               <div class="card-separator svelte-xknto1"></div>
               <!-- Karteninhalt-->
               <div class="content svelte-xknto1">
+               <!-- Hinweis: "slot" = Platzhalter für dynamische Inhalte in einer Web-Komponente--> 
                 <span slot="content">Dank der <b>KI-gestützten Kursgenerierung</b> ist das Erstellen und Ausarbeiten neuer Schulungen einfacher denn je.</span>
               </div>
             </div>
@@ -247,10 +251,12 @@
       </div>
 
       <!-- Abschnitt Tags-->
+       <!-- Hinweis: "row" = Grid-Layout-->
       <div class="row">
         <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 3 von 12 Teilen einnimmt.-->
         <div class="col-lg-3">
           <h4>Tags</h4>
+          <!--In Klasse tags svelte-z2pf3c ist festgelegt, dass es ein Flowed Layout ist.-->
           <div class="tags svelte-z2pf3c">
             <span class="svelte-6paitv">Büroalltag</span>
             <span class="svelte-6paitv">Organisation</span>
@@ -265,10 +271,13 @@
             <span class="svelte-6paitv">Informationssicherheit</span>
           </div>
         </div>
+        <!--Tags = 3 + Kurse 9 = 12-->
         <div class="col-lg-9 course-list">
           <h4>Kurse</h4>
           <div class="row">
             <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 4 von 12 Teilen einnimmt.-->
+            <!--"row ist im "row" also kaskadiert"-->
+            <!--9 entsprechen 12 ein Element ist 4-->
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
                 <img src="https://elearning.schulungs.cloud/api/v1/course/23/image/2949ce7e-8bcc-48a0-a4c4-27cf9c776435.jpg" alt="" class="card-header svelte-19v7hip">
@@ -475,7 +484,7 @@
                 </div>
               </div>
             </div>
-            
+
             <!--Formular-->
             <div class="row">
               <div class="col-lg-6">
@@ -578,7 +587,6 @@
 <!--Abschnitt Lizenzrechner Beispiel JavaScript Code für das Berechnen der Credits:-->
 <script setup lang="ts">
 import { Ref, ref } from "vue";
-import DoIt from "./components/DoIt.vue";
 
 const userCount : Ref<string> = ref("100");
 const credits : Ref<number> = ref(1200);
