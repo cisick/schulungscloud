@@ -187,7 +187,7 @@
     <div class="container svelte-18wrtac">
       <h3 class="text-center">Kurse finden</h3>
       <h4 class="text-center">Durchsuchen Sie unsere große Auswahl an vorgefertigten Kursen</h4>
-      <div class="searchbar svelte-z2pf3c"><input type="text" class="form-control svelte-1994qsi" placeholder="" value="">
+      <div class="searchbar svelte-z2pf3c"><input type="text" class="form-control svelte-1994qsi" placeholder="Suchbegriff eingeben, z.B. Hygiene-Schulung ..." value="">
         <div class="loader svelte-z2pf3c">
           <svg id="sc-loader-svg" data-name="sc-loader-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.85 89.59" style="width: 32px;" class="svelte-1y3s990 mono">
             <g id="sc-loader-svg-layer1" data-name="sc-loader-svg-layer1">
@@ -228,7 +228,7 @@
           <div class="row">
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="23" data-image="https://elearning.schulungs.cloud/api/v1/course/23/image/2949ce7e-8bcc-48a0-a4c4-27cf9c776435.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/23/image/2949ce7e-8bcc-48a0-a4c4-27cf9c776435.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Datenschutz Grundlagen</h3>
                   <p class="svelte-19v7hip">In diesem Kurs werden die absoluten Grundlagen zum Thema Datenschutz vermittelt. Vermittelt wird, was Datenschutz ist, was die rechtlichen Grundlagen sind bzw. welche vorgaben sich durch die DSGVO auf unser Leben ergeben.</p>
@@ -237,7 +237,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="21" data-image="https://elearning.schulungs.cloud/api/v1/course/21/image/4edc277b-0019-4545-946d-98cefe4323fb.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/21/image/4edc277b-0019-4545-946d-98cefe4323fb.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Einführung in Vertragsrecht</h3>
                   <p class="svelte-19v7hip">Einführung in Vertragsrecht</p>
@@ -246,7 +246,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="16" data-image="https://elearning.schulungs.cloud/api/v1/course/16/image/4d2b5878-f594-4236-a39d-13488702ac9f.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/16/image/4d2b5878-f594-4236-a39d-13488702ac9f.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Grundlagen der Arbeitsplatzergonomie</h3>
                   <p class="svelte-19v7hip">In dieser Schulungen werden die Grundlagen zum Thema Arbeitsplatzergonomie erklärt.</p>
@@ -255,7 +255,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="18" data-image="https://elearning.schulungs.cloud/api/v1/course/18/image/f3e9f6c8-bd44-4482-96b3-445b9f8e4d12.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/18/image/f3e9f6c8-bd44-4482-96b3-445b9f8e4d12.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Grundlagen der Beschaffung</h3>
                   <p class="svelte-19v7hip">In dieser Schulung werden Ihnen die Grundlagen der Beschaffung näher gebracht.</p>
@@ -264,7 +264,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="22" data-image="https://elearning.schulungs.cloud/api/v1/course/22/image/2d10d251-05b6-49b9-9e91-220f80676ac3.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/22/image/2d10d251-05b6-49b9-9e91-220f80676ac3.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Grundlagen der ergonomischen Gestaltung von Bildschirmarbeitsplätzen</h3>
                   <p class="svelte-19v7hip">In dieser Schulung werden die Grundlagen einer ergonomischen Ausgestaltung von Bildschirmarbeitsplätzen erläutert.</p>
@@ -273,7 +273,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="19" data-image="https://elearning.schulungs.cloud/api/v1/course/19/image/b081aae0-ed95-40ee-bec9-f42b4b3b03a8.png"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/19/image/b081aae0-ed95-40ee-bec9-f42b4b3b03a8.png" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Grundlagen der Mitarbeiterführung</h3>
                   <p class="svelte-19v7hip">In dieser Schulung sollen Grundlagen zur Mitarbeiterführung vermittelt werden</p>
@@ -282,7 +282,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="29" data-image="https://elearning.schulungs.cloud/api/v1/course/29/image/422b51fe-2849-43d6-a9a8-28aad41c78c5.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/29/image/422b51fe-2849-43d6-a9a8-28aad41c78c5.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Interkulturelle Kompetenz</h3>
                   <p class="svelte-19v7hip">Interkulturelle Kompetenz im Wirtschaftsleben.</p>
@@ -291,7 +291,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="17" data-image="https://elearning.schulungs.cloud/api/v1/course/17/image/96085c19-8cd2-41bd-aea7-5a0d164798ba.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/17/image/96085c19-8cd2-41bd-aea7-5a0d164798ba.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Kommunikation am Arbeitsplatz</h3>
                   <p class="svelte-19v7hip">In dieser Schulung wird erklärt wie man sich am Arbeitsplatz verhalten sollte.</p>
@@ -300,7 +300,7 @@
             </div>
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
-                <div class="card-header svelte-19v7hip" data-id="15" data-image="https://elearning.schulungs.cloud/api/v1/course/15/image/1b8161dd-b7f4-4cb2-a2bd-dec6940eda83.jpg"></div>
+                <img src="https://elearning.schulungs.cloud/api/v1/course/15/image/1b8161dd-b7f4-4cb2-a2bd-dec6940eda83.jpg" alt="" class="card-header svelte-19v7hip">
                 <div class="card-body">
                   <h3 class="card-title">Zeitmanagement im Büroalltag</h3>
                   <p class="svelte-19v7hip">Zeitmanagement im Büroalltag - Ein Einstiegskurs in die Kunst des koordinierten und geplanten Zeitmanagements. 
@@ -365,7 +365,7 @@
       <p class="text-center">Überzeugen Sie sich von unseren preiswertem Lizenzmodell. Geben Sie unverbindlich die Anzahl der Benutzer ein und erhalten Sie direkt den dazugehörigen Preis. Die Laufzeit beträgt jeweils ein Jahr, zusätzlich zur Nutzungslizenz für Ihre Benutzer erhalten Sie jeweils eine bestimmte Anzahl an <b>Credits</b>. Mit diesen Credits können Sie unsere innovativen KI-Funktionen nutzen.</p>
       <div class="row my-4">
             <label for="users" class="form-label">Anzahl der Benutzer</label>
-            <input type="range" class="form-range" id="users" min="100" max="2000" step="100" value="100">
+            <input type="range" class="form-range" id="users" min="100" max="2000" step="100" value="100" v-model="userCount" @change="calculateCredits()">
       </div>
       <div class="offer text-center svelte-53os54">
         <h4>Ihr persönliches Angebot</h4>
@@ -373,11 +373,11 @@
           <div class="col-lg-6">
             <div class="form-group">
               <h5 class="mb-1">Anzahl der Benutzer</h5>
-              <p>100 Benutzer</p>
+              <p>{{userCount}} Benutzer</p>
             </div>
             <div class="form-group mt-4">
               <h5 class="mb-1">Anzahl der Credits</h5>
-              <p>1.200 Credits</p></div>
+              <p>{{credits}} Credits</p></div>
             </div>
             <div class="col-lg-6">
               <h5>Preis pro Monat</h5>
@@ -523,5 +523,18 @@
     </div>
   </section>
 </div>
+<DoIt></DoIt>
 </template>
+
+<script setup lang="ts">
+import { Ref, ref } from "vue";
+import DoIt from "./components/DoIt.vue";
+
+const userCount : Ref<string> = ref("100");
+const credits : Ref<number> = ref(1200);
+
+function calculateCredits() {
+  credits.value = userCount.value * 12;
+}
+</script>
 
