@@ -1,9 +1,15 @@
 
-
 <template>
 
+<!--'Abschnitt: Header der Webseite'-->
 <div >
+  <!--' Es wird ein <div>-Tag mit der CSS-Klasse "svelte-vi705s" versehen, um es wie einen Header zu gestalten.
+  "svelte-vi705s" ist eine automatisch von dem Framework Svelte generierte CSS Klasse, 
+  die zur Formatierung der Webseite genutzt wurde.
+  In der Webseite wird so der Kopf mit der Überschrift und dem Bild im Hintergrund gestaltet.
+  '-->
   <div class="header svelte-vi705s">
+    <!--' Das div mit der Klasse text-wrapper enthält den Text der Übrschrift und das Logo. '-->
     <div class="text-wrapper svelte-vi705s">
       <div>
         <img src="./assets/logo.83630b48.webp" alt="Schulungs.Cloud" width="auto" height="auto" id="logo" class="svelte-vi705s">
@@ -13,54 +19,75 @@
  
     <div class="wrapper svelte-gnsllk"><div id="background" class="svelte-gnsllk"></div></div>
   </div>
-  
+
+<!--'Abschnitt: Reiter zum Auswählen der Themen -->
   <div class="wrapper svelte-a3x9i2"></div>
   <div class="top svelte-1tqazs7">
+    <!-- Navigationselement -->
     <nav id="navbar" class="navbar navbar-expand-lg svelte-qkfvko">
+      <!-- Logo und Link zur Startseite -->
       <a class="navbar-brand svelte-qkfvko" href="#top">
         <img src="./assets/logo-rgb.aa062cf4.png" alt="Schulungs.Cloud" class="svelte-qkfvko">
       </a>
+      <!-- Toggler Button für mobile Navigation -->
       <button class="navbar-toggler svelte-qkfvko" type="button" aria-expanded="false" aria-label="Navigation öffnen">
         <span class="navbar-toggler-icon svelte-qkfvko"></span>
       </button>
+       <!-- Container für Navigationselemente -->
       <div class="navbar-collapse svelte-qkfvko">
+        <!-- Liste der Navigationselemente -->
         <ul class="nav nav-pills svelte-qkfvko">
+          <!-- Navigationselement nur sichtbar auf kleinen Bildschirmen -->
           <li class="nav-item d-block d-lg-none svelte-qkfvko">
             <a href="navbar" class="nav-link svelte-qkfvko">
               <img src="./assets/logo-rgb.aa062cf4.png" alt="Schulungs.Cloud" class="svelte-qkfvko">
             </a>
           </li>
+          <!-- Navigationselement "Start" -->
           <li class="nav-item svelte-qkfvko">
             <a class="nav-link active svelte-qkfvko" href="#start">Start<span class="svelte-qkfvko"></span></a>
           </li>
+          <!-- Navigationselement "Funktionen" -->
           <li class="nav-item svelte-qkfvko">
             <a class="nav-link svelte-qkfvko" href="#funktionen">Funktionen<span class="svelte-qkfvko"></span></a>
           </li>
+          <!-- Navigationselement "Kurse" -->
           <li class="nav-item svelte-qkfvko">
             <a class="nav-link svelte-qkfvko" href="#kurse">Kurse<span class="svelte-qkfvko"></span></a></li>
+            <!-- Navigationselement "Registrieren" -->
           <li class="nav-item svelte-qkfvko"><a class="nav-link svelte-qkfvko" href="#registrieren">Registrieren<span class="svelte-qkfvko"></span></a>
           </li>
         </ul>
+        <!-- Zusätzliche Navigationselemente für mobile Ansicht -->
         <ul class="nav nav-pills nav-mobile-close d-block d-lg-none svelte-qkfvko">
           <li class="nav-item svelte-qkfvko">
             <a class="nav-link svelte-qkfvko" href="#start">Navigation schließen<span class="svelte-qkfvko"></span></a>
           </li>
         </ul>
       </div>
+      <!-- Kontaktbereich in der Navigation -->
       <div class="navbar-contact svelte-qkfvko"><span class="svelte-qkfvko">Rufen Sie uns an</span>
         <a href="tel:091197559200" class="svelte-qkfvko"><span class="fal fa-phone-office me-2 svelte-qkfvko"></span>0911 / 97 55 92 - 00</a>
       </div>
     </nav>
   </div>
 
+  <!-- Karte 1-->
   <section id="start" class="svelte-nghi21">
+    <!-- Ein Container-Element, das den Inhalt zentriert und formatiert. -->
     <div class="container">
+      <!--Ein Container für eine Reihe von Spalten, normalerweise in einem Raster-Layout.-->
       <div class="row">
+        <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 4 von 12 Teilen einnimmt.-->
         <div class="col-lg-4">
+          <!-- Formatierung der einzelnen Spalte-->
+           <!-- Kartenüberschrift-->
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
               <h3 class="card-title svelte-xknto1"><span slot="title">einfach.</span></h3>
+              <!-- Definieren eines Elements um den blauen Strich darzustellen.-->
               <div class="card-separator svelte-xknto1"></div>
+              <!-- Karteninhalt-->
               <div class="content svelte-xknto1">
                 <span slot="content">Dank der <b>KI-gestützten Kursgenerierung</b> ist das Erstellen und Ausarbeiten neuer Schulungen einfacher denn je.</span>
               </div>
@@ -68,6 +95,7 @@
           </div>
         </div>
 
+  <!-- Karte 2-->
         <div class="col-lg-4">
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
@@ -80,6 +108,7 @@
           </div>
         </div>
 
+  <!-- Karte 3-->
         <div class="col-lg-4">
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
@@ -93,7 +122,9 @@
         </div>
       </div>
 
+  <!-- Karte 4-->
       <div class="row mt-lg-4 justify-content-center">
+        <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 5 von 12 Teilen einnimmt.-->
         <div class="col-lg-5">
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
@@ -107,6 +138,8 @@
             </div>
           </div>
         </div>
+
+  <!-- Karte 5--> 
         <div class="col-lg-5">
           <div class="card my-2 my-lg-0 svelte-xknto1" data-align="center">
             <div class="card-body svelte-xknto1">
@@ -123,6 +156,7 @@
       </div>
     </div>
 
+<!-- Das einfliegende Banner unter den Reitern.-->
     <div class="banner-container svelte-nghi21">
       <a href="/wim-oktober.pdf" target="_blank" rel="noopener" class="banner svelte-nghi21">
         <span class="svelte-nghi21">Der Schulungs.Cloud-Artikel in der WiM</span>
@@ -131,7 +165,9 @@
     </div>
   </section>
 
+<!-- Abschnitt Funktionen-->
   <section id="funktionen">
+    <!-- Unterabschnitt 1: Virtueller Referent dank KI-->
     <div class="feature feature-secondary d-flex align-items-center svelte-1kktozq">
       <div class="container d-block d-lg-flex align-items-center">
         <img src="./assets/megaphone.adabf0ca.svg" alt="" class="img-fluid img-icon-left svelte-1kktozq">
@@ -149,9 +185,11 @@
         <img src="./assets/megaphone.adabf0ca.svg" alt="" class="img-fluid img-icon-right svelte-1kktozq d-none">
       </div>
     </div>
+    <!-- Unterabschnitt 2: ChatGPT generierter Inhalt-->
     <div class="feature feature-white d-flex align-items-center svelte-1kktozq">
       <div class="container d-block d-lg-flex align-items-center">
         <img src="./assets/chatgpt.a362957d.svg" alt="" class="img-fluid img-icon-left svelte-1kktozq d-none">
+        
         <div class="feature-text svelte-1kktozq">
           <h2>ChatGPT generierter Inhalt</h2>
           <p class="text-justify">ChatGPT ist eine künstliche Intelligenz (KI), die mit ihrer GPT-3.5 Architektur für die natürliche Sprachverarbeitung und -generierung trainiert ist. Diese Technologie kann auf verschiedene Arten dazu beitragen, Kursinhalte zu erstellen:</p>
@@ -165,7 +203,7 @@
         <img src="./assets/chatgpt.a362957d.svg" alt="" class="img-fluid img-icon-right svelte-1kktozq">
       </div>
     </div>
-
+    <!-- Unterabschnitt 3: Inhalte kaufen war gestern-->
     <div class="feature feature-primary d-flex align-items-center svelte-1kktozq">
       <div class="container d-block d-lg-flex align-items-center">
         <img src="./assets/books.414975c2.svg" alt="" class="img-fluid img-icon-left svelte-1kktozq">
@@ -182,11 +220,12 @@
       </div>
     </div>
   </section>
-
+<!-- Abschnitt vorgefertigte Kurse-->
   <section id="kurse" class="svelte-18wrtac">
     <div class="container svelte-18wrtac">
       <h3 class="text-center">Kurse finden</h3>
       <h4 class="text-center">Durchsuchen Sie unsere große Auswahl an vorgefertigten Kursen</h4>
+      <!-- Suchleiste-->
       <div class="searchbar svelte-z2pf3c"><input type="text" class="form-control svelte-1994qsi" placeholder="Suchbegriff eingeben, z.B. Hygiene-Schulung ..." value="">
         <div class="loader svelte-z2pf3c">
           <svg id="sc-loader-svg" data-name="sc-loader-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.85 89.59" style="width: 32px;" class="svelte-1y3s990 mono">
@@ -206,7 +245,10 @@
           </svg>
         </div>
       </div>
+
+      <!-- Abschnitt Tags-->
       <div class="row">
+        <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 3 von 12 Teilen einnimmt.-->
         <div class="col-lg-3">
           <h4>Tags</h4>
           <div class="tags svelte-z2pf3c">
@@ -226,6 +268,7 @@
         <div class="col-lg-9 course-list">
           <h4>Kurse</h4>
           <div class="row">
+            <!--Eine Spalte, die auf großen Bildschirmen (large, lg) 4 von 12 Teilen einnimmt.-->
             <div class="col-lg-4 d-flex">
               <div class="card svelte-19v7hip">
                 <img src="https://elearning.schulungs.cloud/api/v1/course/23/image/2949ce7e-8bcc-48a0-a4c4-27cf9c776435.jpg" alt="" class="card-header svelte-19v7hip">
@@ -357,7 +400,8 @@
       </div>
     </div>
   </section>
- 
+
+ <!--Abschnitt Lizenzrechner-->
   <section id="registrieren" class="svelte-53os54">
     <div class="container">
       <h2 class="text-center">Günstige Preise dank skalierbaren Lizenzmodell</h2>
@@ -391,6 +435,7 @@
     </div>
   </section>
 
+  <!--Abschnitt Registrieren-->
   <section id="registrieren" class="svelte-1ysh0ib">
     <div class="container">
       <h2 class="text-center">Überzeugt? Jetzt unkompliziert anmelden</h2>
@@ -406,6 +451,7 @@
           <p>Anschließend können Sie die ersten Benutzer Ihrer Organisation anlegen und Kurse erstellen.</p>
           <p>In Eile? Kein Problem, wählen Sie einfach einen Kurs aus unserer umfangreichen Kursbibliothek aus.</p>
         </div>
+        <!--kleiner Lizenzrechner-->
         <div class="col-lg-8">
           <form method="POST">
             <div class="user-selection svelte-1ysh0ib">
@@ -429,6 +475,8 @@
                 </div>
               </div>
             </div>
+            
+            <!--Formular-->
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group has-validation">
@@ -491,6 +539,7 @@
     </div>
   </section>
 
+<!--Abschnitt Fußzeile-->
   <section id="footer" class="svelte-nsiaxd">
     <div class="container-fluid svelte-nsiaxd">
       <div class="row">
@@ -526,6 +575,7 @@
 <DoIt></DoIt>
 </template>
 
+<!--Abschnitt Lizenzrechner Beispiel JavaScript Code für das Berechnen der Credits:-->
 <script setup lang="ts">
 import { Ref, ref } from "vue";
 import DoIt from "./components/DoIt.vue";
